@@ -1,0 +1,62 @@
+body {
+  background-color: whitesmoke;
+  font-family: inter, sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 70px;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 15px;
+  border: 1px dotted gray;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+nav ul li:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translate(7px, -4px);
+}
+
+nav ul li a {
+  text-decoration: wavy;
+}
+
+#logo {
+  max-width: 150px;
+  margin-right: 150px;
+  height: 100px;
+  transition: all 1s ease 0.9s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#logo:hover {
+  background-color: #000000;
+  box-shadow: 0px 15px 20px rgba(255, 229, 200, 0.4);
+  transform: translateX(10px);
+}
+
+#img-block {
+  background-image: url("../images/Pitch.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  width: 50%;
+  margin-left: auto;
+}
+
+.index-content {
+  display: flex;
+  background-image: url("../images/grid.png");
+  background-size: cover;
+}
